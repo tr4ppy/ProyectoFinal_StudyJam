@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.androidbolivia.naviapp.MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fondo_rojo"
+        android:scaleType="centerCrop" />
+    <LinearLayout
+        android:id="@+id/botones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:drawableLeft="@drawable/ic_canciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Canciones"
+            android:onClick="canciones"
+            android:layout_alignParentTop="true"/>
+        <Button
+            android:drawableLeft="@drawable/ic_lista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Regalos"
+            android:onClick="listaRegalos" />
+    </LinearLayout>
+    <ImageView
+        android:layout_below="@id/botones"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/titulo"/>
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_height="490dp"
+        android:src="@drawable/arbol_nav"
+        android:alpha="0.9"/>
+
+</RelativeLayout>

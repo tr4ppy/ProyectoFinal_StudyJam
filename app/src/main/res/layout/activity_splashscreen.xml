@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splashscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.androidbolivia.naviapp.SplashscreenActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fondo_splash"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/ivFeliz"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:src="@drawable/feliz"/>
+    <ImageView
+        android:id="@+id/ivAndy"
+        android:layout_below="@id/ivFeliz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/andy"/>
+    <ImageView
+        android:padding="10dp"
+        android:id="@+id/ivNavidad"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/navidad"
+        android:layout_below="@id/ivAndy"/>
+</RelativeLayout>

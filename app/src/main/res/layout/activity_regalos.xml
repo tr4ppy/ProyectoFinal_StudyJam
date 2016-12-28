@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_imagenes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    android:alpha="0.9"
+    tools:context="com.androidbolivia.naviapp.RegalosActivity">
+    <ListView
+        android:id="@+id/lvRegalos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="3dp"
+
+        android:background="@drawable/fondo_lista">
+    </ListView>
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nombre">
+        <item>@string/main.r1.nombre</item>
+        <item>@string/main.r2.nombre</item>
+        <item>@string/main.r3.nombre</item>
+        <item>@string/main.r4.nombre</item>
+        <item>@string/main.r5.nombre</item>
+        <item>@string/main.r6.nombre</item>
+        <item>@string/main.r7.nombre</item>
+        <item>@string/main.r8.nombre</item>
+        <item>@string/main.r9.nombre</item>
+        <item>@string/main.r10.nombre</item>
+    </string-array>
+    <string-array name="descripcion">
+        <item>@string/main.r1.descripcion</item>
+        <item>@string/main.r2.descripcion</item>
+        <item>@string/main.r3.descripcion</item>
+        <item>@string/main.r4.descripcion</item>
+        <item>@string/main.r5.descripcion</item>
+        <item>@string/main.r6.descripcion</item>
+        <item>@string/main.r7.descripcion</item>
+        <item>@string/main.r8.descripcion</item>
+        <item>@string/main.r9.descripcion</item>
+        <item>@string/main.r10.descripcion</item>
+    </string-array>
+    <string-array name="precio">
+        <item>@string/main.r1.precio</item>
+        <item>@string/main.r2.precio</item>
+        <item>@string/main.r3.precio</item>
+        <item>@string/main.r4.precio</item>
+        <item>@string/main.r5.precio</item>
+        <item>@string/main.r6.precio</item>
+        <item>@string/main.r7.precio</item>
+        <item>@string/main.r8.precio</item>
+        <item>@string/main.r9.precio</item>
+        <item>@string/main.r10.precio</item>
+    </string-array>
+    <integer-array name="image">
+        <item>@drawable/regalo1</item>
+        <item>@drawable/regalo2</item>
+        <item>@drawable/regalo3</item>
+        <item>@drawable/regalo4</item>
+        <item>@drawable/regalo5</item>
+        <item>@drawable/regalo6</item>
+        <item>@drawable/regalo7</item>
+        <item>@drawable/regalo8</item>
+        <item>@drawable/regalo9</item>
+        <item>@drawable/regalo10</item>
+    </integer-array>
+</resources>
