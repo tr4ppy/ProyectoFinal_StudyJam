@@ -78,6 +78,10 @@ public class CancionesActivity extends AppCompatActivity {
         btnStop5.setEnabled(false);
     }
     public void play1(View view){
+        stop2(view);
+        stop3(view);
+        stop4(view);
+        stop5(view);
         try{
             mediaPlayer1.start();
             btnPause1.setEnabled(true);
@@ -86,7 +90,6 @@ public class CancionesActivity extends AppCompatActivity {
         }catch (IllegalStateException e){
             Log.i("MediaPlayer","Error: "+e.getMessage());
         }
-
     }
     public void pause1(View view){
         if (mediaPlayer1.isPlaying()){
@@ -107,6 +110,10 @@ public class CancionesActivity extends AppCompatActivity {
         }
     }
     public void play2(View view){
+        stop1(view);
+        stop3(view);
+        stop4(view);
+        stop5(view);
         try{
             mediaPlayer2.start();
             btnPause2.setEnabled(true);
@@ -135,6 +142,10 @@ public class CancionesActivity extends AppCompatActivity {
         }
     }
     public void play3(View view){
+        stop1(view);
+        stop2(view);
+        stop4(view);
+        stop5(view);
         try{
             mediaPlayer3.start();
             btnPause3.setEnabled(true);
@@ -163,6 +174,10 @@ public class CancionesActivity extends AppCompatActivity {
         }
     }
     public void play4(View view){
+        stop1(view);
+        stop2(view);
+        stop3(view);
+        stop5(view);
         try{
             mediaPlayer4.start();
             btnPause4.setEnabled(true);
@@ -191,6 +206,10 @@ public class CancionesActivity extends AppCompatActivity {
         }
     }
     public void play5(View view){
+        stop1(view);
+        stop2(view);
+        stop3(view);
+        stop4(view);
         try{
             mediaPlayer5.start();
             btnPause5.setEnabled(true);

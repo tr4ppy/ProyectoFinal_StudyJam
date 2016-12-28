@@ -21,7 +21,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".DetalleActivity"
-            android:label="Regalos"/>
+            android:label="Regalos"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
