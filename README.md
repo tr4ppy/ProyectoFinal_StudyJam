@@ -53,9 +53,9 @@ Aca te muestro cual es el funcionamiento de mi aplicación a grandes rasgos.
     <center>
         <table border="0">
             <tr>
-                <td><img src="/img/corrida1.gif" width="200" width="250"></td>
-                <td><img src="/img/corrida2.gif" width="200" width="250"></td>
-                <td><img src="/img/corrida3.gif" width="200" width="250"></td>
+                <td><img src="/img/corrida1.gif" width="300"></td>
+                <td><img src="/img/corrida2.gif" width="300"></td>
+                <td><img src="/img/corrida3.gif" width="300"></td>
             </tr>
         </table>
     </center>
